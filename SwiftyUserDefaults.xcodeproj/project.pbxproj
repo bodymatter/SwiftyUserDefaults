@@ -15,6 +15,7 @@
 		2410BBF7DE7518FD5DD73BB4 /* Defaults+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A574FF49CBCEBCCEAE9BD42E /* Defaults+String.swift */; };
 		30366F181855444010BCC954 /* Defaults+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D6CCB785C552A0B39B16A /* Defaults+Color.swift */; };
 		311F24C3509BE924078AD67E /* DefaultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9701991125BC1345631E831E /* DefaultsObserver.swift */; };
+		433116322BD1966700974D22 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 433116312BD1966700974D22 /* PrivacyInfo.xcprivacy */; };
 		499B0191487C22E03028ED3C /* Defaults+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE3F6B58F219CAAE0AD64 /* Defaults+Int.swift */; };
 		4B604921053C4F31217DCE9E /* Defaults+Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910BE3FABE99289E0545D95 /* Defaults+Observing.swift */; };
 		7EE5BB8911DFD47B6D6ED8E5 /* Defaults+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F97C9DDE34857798EA6519B /* Defaults+Date.swift */; };
@@ -58,6 +59,7 @@
 		2EFFE22277FA6C163E34F4D2 /* DefaultsSerializableSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsSerializableSpec.swift; path = Tests/SwiftyUserDefaultsTests/TestHelpers/DefaultsSerializableSpec.swift; sourceTree = "<group>"; };
 		2F97C9DDE34857798EA6519B /* Defaults+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Date.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+Date.swift"; sourceTree = "<group>"; };
 		3D8980553F1615D4ACB4AA43 /* Defaults+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Dictionary.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+Dictionary.swift"; sourceTree = "<group>"; };
+		433116312BD1966700974D22 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		63C197A55B797D98D9603C98 /* UserDefaults+PropertyList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+PropertyList.swift"; path = "Tests/SwiftyUserDefaultsTests/TestHelpers/UserDefaults+PropertyList.swift"; sourceTree = "<group>"; };
 		6494A812C2386E7351405E72 /* Defaults+URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+URL.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+URL.swift"; sourceTree = "<group>"; };
 		6C48B95D407E4F720507F3D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		360E42BFF4D0B60A2966BBFB = {
 			isa = PBXGroup;
 			children = (
+				433116312BD1966700974D22 /* PrivacyInfo.xcprivacy */,
 				030EF47B968BC320EF6F10A3 /* Products */,
 				ECEEA08FA9788F3518C84E77 /* Frameworks */,
 				1A0E1BA11455E9E44F192EAA /* Sources */,
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433116322BD1966700974D22 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
